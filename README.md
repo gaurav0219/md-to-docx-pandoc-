@@ -2,6 +2,10 @@
 
 A simple desktop application for converting Markdown files to DOCX format using pandoc.
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/gaurav0219/md-to-docx-pandoc-)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
 ## Features
 
 - **Easy-to-use GUI** built with tkinter
@@ -14,6 +18,16 @@ A simple desktop application for converting Markdown files to DOCX format using 
 - **Real-time conversion log** with progress indication
 - **Error handling** with helpful messages
 - **Cross-platform** support (Windows, macOS, Linux)
+
+## Screenshot
+
+![MD to DOCX Converter](https://raw.githubusercontent.com/gaurav0219/md-to-docx-pandoc-/master/screenshot.png)
+
+*Note: If no screenshot is displayed, you can add one to your repository by capturing the application and naming it 'screenshot.png'*
+
+## Getting Started
+
+This application provides a user-friendly interface for converting Markdown files to Microsoft Word format using the powerful Pandoc document converter.
 
 ## Prerequisites
 
@@ -41,26 +55,51 @@ sudo apt-get install pandoc
 
 ## Installation
 
-1. **Clone or download** this project to your computer
-2. **Navigate** to the project directory
+### Method 1: Download Pre-built Executable
+
+1. Go to the [Releases page](https://github.com/gaurav0219/md-to-docx-pandoc-/releases)
+2. Download the latest `.exe` file (Windows) or appropriate package for your OS
+3. Run the executable directly - no installation required!
+
+### Method 2: From Source Code
+
+1. **Clone or download** this repository:
+   ```bash
+   git clone https://github.com/gaurav0219/md-to-docx-pandoc-.git
+   ```
+
+2. **Navigate** to the project directory:
+   ```bash
+   cd md-to-docx-pandoc-
+   ```
+
 3. **Install dependencies** (optional, tkinter is included with Python):
    ```bash
    pip install -r requirements.txt
+   ```
+
+4. **Run the application**:
+   ```bash
+   python main.py
    ```
 
 ## Usage
 
 ### Running the Application
 
-#### Method 1: Double-click
-- Simply double-click `main.py` if Python is properly associated with `.py` files
+You can run the application using one of these methods:
 
-#### Method 2: Command Line
-```bash
-python main.py
-```
+#### Method 1: Using the Executable
+- If you downloaded the pre-built executable, simply double-click it to launch
 
-#### Method 3: VS Code
+#### Method 2: Running the Python Script
+- Double-click `main.py` if Python is properly associated with `.py` files
+- Or run from command line:
+  ```bash
+  python main.py
+  ```
+
+#### Method 3: Using VS Code
 - Open the project in VS Code
 - Press `F5` or use `Run > Start Debugging`
 
@@ -161,10 +200,29 @@ For converting multiple files, you can:
 - **Error handling** with user-friendly messages
 - **Cross-platform compatibility**
 
+### Building the Executable
+The project includes a build script to create standalone executables using PyInstaller:
+
+```bash
+python build_exe.py
+```
+
+This creates a distribution in the `dist` folder that can be run without Python installed.
+
 ## License
 
 This project is open source and available under the MIT License.
 
 ## Contributing
 
-Feel free to submit issues, feature requests, or pull requests to improve this application!
+Contributions are welcome! Here's how you can help:
+
+- **Report bugs** by opening an issue
+- **Suggest features** or improvements
+- **Submit pull requests** with bug fixes or new features
+
+## Project Links
+
+- [GitHub Repository](https://github.com/gaurav0219/md-to-docx-pandoc-)
+- [Report Issues](https://github.com/gaurav0219/md-to-docx-pandoc-/issues)
+- [Pandoc Documentation](https://pandoc.org/MANUAL.html)
