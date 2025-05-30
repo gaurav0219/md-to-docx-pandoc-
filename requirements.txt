@@ -1,0 +1,6 @@
+# No external dependencies required for basic functionality
+# tkinter is included with Python standard library
+
+# Optional: For potential future enhancements
+# Pillow>=8.0.0  # For image handling in advanced features
+# requests>=2.25.0  # For potential online template downloads

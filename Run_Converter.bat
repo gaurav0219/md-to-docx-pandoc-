@@ -1,0 +1,3 @@
+@echo off
+echo Running MD to DOCX Converter...
+start "" "%~dp0dist\MD_to_DOCX_Converter.exe"
